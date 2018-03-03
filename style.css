@@ -1,6 +1,6 @@
 /* style.css */
 body{
-  background-color: black ; 
+  background-color: grey ; 
   color: rgb(0,0,0);
   font-size: 15px;
   font-family: Helvetica;
@@ -78,4 +78,10 @@ a:hover {
   color: white;
 }
 
+/* Flexbox */
+h2{
+  display : flex;
+  vertical-align: center;
+  justify-content: center;
+}
 
